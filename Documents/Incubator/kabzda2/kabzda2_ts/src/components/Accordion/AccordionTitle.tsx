@@ -1,9 +1,14 @@
 import React from 'react';
 
-const AccordionTitle = () => {
+type titlePropsType = {
+    title: string
+    onClick: () => void
+}
+
+const AccordionTitle = (props: titlePropsType) => {
     return (
         <div>
-            <h3>Menu</h3>
+            <h3 onClick={ () => { props.onClick()}}>{props.title}</h3>
         </div>
     );
 };
