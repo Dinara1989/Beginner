@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentLoader from 'react-content-loader';
+import ContentLoader from 'react-content-loader'; //це бібліотека, в ній можна створювати скелетони, тобто от такі заглушки - блоки
 
 export const Skeleton = () => (
   <ContentLoader
