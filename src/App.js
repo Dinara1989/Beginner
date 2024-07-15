@@ -9,7 +9,7 @@ function App() {
    const [users, setUsers] = useState([]);
    const [invites, setInvites] = useState([]);
    const [isLoading, setLoading] = useState(true);
-   const [searchValue, setSearchValue] = useState('');
+   const [searchValue, setSearchValue] = useState(''); //моя помилка, що я передала пробіл, замість пустої строки
    const [success, setSuccess] = useState(false);
 
     React.useEffect( ()=> {
